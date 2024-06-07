@@ -45,6 +45,8 @@
 		5A3DF8442C129C8B00E09F78 /* popup.css in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DF7F42C129C8B00E09F78 /* popup.css */; };
 		5A3DF8452C129C8B00E09F78 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DF7F52C129C8B00E09F78 /* popup.js */; };
 		5A3DF8462C129C8B00E09F78 /* popup.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DF7F52C129C8B00E09F78 /* popup.js */; };
+		5A3DF8582C129D9000E09F78 /* words.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DF8572C129D9000E09F78 /* words.js */; };
+		5A3DF8592C129D9000E09F78 /* words.js in Resources */ = {isa = PBXBuildFile; fileRef = 5A3DF8572C129D9000E09F78 /* words.js */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -120,6 +122,7 @@
 		5A3DF8222C129C8B00E09F78 /* BingRewardsExtension Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "BingRewardsExtension Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A3DF8272C129C8B00E09F78 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5A3DF8282C129C8B00E09F78 /* BingRewardsExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BingRewardsExtension.entitlements; sourceTree = "<group>"; };
+		5A3DF8572C129D9000E09F78 /* words.js */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.javascript; path = words.js; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -200,6 +203,7 @@
 		5A3DF7ED2C129C8B00E09F78 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				5A3DF8572C129D9000E09F78 /* words.js */,
 				5A3DF7EE2C129C8B00E09F78 /* _locales */,
 				5A3DF7EF2C129C8B00E09F78 /* images */,
 				5A3DF7F02C129C8B00E09F78 /* manifest.json */,
@@ -421,6 +425,7 @@
 				5A3DF83B2C129C8B00E09F78 /* manifest.json in Resources */,
 				5A3DF8372C129C8B00E09F78 /* _locales in Resources */,
 				5A3DF83F2C129C8B00E09F78 /* content.js in Resources */,
+				5A3DF8582C129D9000E09F78 /* words.js in Resources */,
 				5A3DF8452C129C8B00E09F78 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -436,6 +441,7 @@
 				5A3DF83C2C129C8B00E09F78 /* manifest.json in Resources */,
 				5A3DF8382C129C8B00E09F78 /* _locales in Resources */,
 				5A3DF8402C129C8B00E09F78 /* content.js in Resources */,
+				5A3DF8592C129D9000E09F78 /* words.js in Resources */,
 				5A3DF8462C129C8B00E09F78 /* popup.js in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -648,6 +654,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BingRewardsExtension Extension";
@@ -678,6 +685,7 @@
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = "BingRewardsExtension Extension";
@@ -712,6 +720,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BingRewardsExtension;
@@ -749,6 +758,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "iOS (App)/Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BingRewardsExtension;
@@ -785,6 +795,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BingRewardsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -816,6 +827,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/BingRewardsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
@@ -850,6 +862,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BingRewardsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BingRewardsExtension;
@@ -884,6 +897,7 @@
 				CODE_SIGN_ENTITLEMENTS = "macOS (App)/BingRewardsExtension.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 7VJX8T8WAF;
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_CFBundleDisplayName = BingRewardsExtension;
