@@ -2,6 +2,9 @@ BingRewardsExtension is a Safari extension that allows you to automatically clai
 
 ## Use
 
+
+TestFlight Link: https://testflight.apple.com/join/vUmzQlXy
+
 Open Safari, open www.bing.com, and login. 
 
 Ps: If you have muitlple accounts, just open Safari Preferences, select Profiles, add mutile profiles, each profile can add a Bing account.
