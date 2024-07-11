@@ -3,7 +3,7 @@ BingRewardsExtension is a Safari extension that allows you to automatically clai
 ## Use
 
 
-TestFlight Link: https://testflight.apple.com/join/vUmzQlXy
+download Link: https://apps.apple.com/cn/app/bing-rewards-extension/id6504474646?l=en-GB&mt=12
 
 Open Safari, open www.bing.com, and login. 
 
